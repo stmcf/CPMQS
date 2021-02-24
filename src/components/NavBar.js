@@ -17,10 +17,10 @@ function NavBar() {
             
             <div className="nav-right">
                 <div className='links' id={showLinks ? "hidden" : "" }>
-                    <Link onClick={() => setShowLinks(!showLinks)}  to="/">Home</Link>
-                    <Link onClick={() => setShowLinks(!showLinks)}  to="/about">About</Link>
-                    <Link onClick={() => setShowLinks(!showLinks)}  to='/services'>Our Services</Link>
-                    <Link onClick={() => setShowLinks(!showLinks)}  to="/contact">Contact</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to='/services'>Our Services</Link>
+                    <Link to="/contact">Contact</Link>
                 </div>
                 <button className="menu-bars" onClick={() => setShowLinks(!showLinks)}  ><FiMenu/></button>
             </div>
