@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgb(52,73,112);
+    background-color: green;
     width: 100%;
     height: 80px;
     display: flex;
@@ -8,7 +8,16 @@
 
 .navbar .nav-left {
     flex: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     
+}
+
+.navbar .nav-left {
+    padding-left: 3vw;
+    color: rgb(52,73,112);
+
 }
 
 .navbar .nav-right {
@@ -20,17 +29,78 @@
 
 }
 
+.navbar .nav-right button {
+    display: none;
+    margin-right: 20px;
+   
+}
+
+.navbar .nav-right #hidden {
+    display: flex;
+   
+}
+
 .navbar .nav-right .links {
     max-height: 80px;
-    
-
 }
+
 
 .navbar .nav-right .links a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(52,73,112);
     font-size: 25px;
     margin-right: 15px;
     flex: ;
+
+}
+
+.cpm-logo {
+    color: hotpink;
+    display: flex;
+    justify-content: flex-start;
+    /* width: 30px; 
+    right: 60px;  */
+    margin-left: 30px;
+    padding: 3vh;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .navbar .nav-right .links a {
+        font-size: 20px;
+    }
+
+
+}
+@media only screen and (max-width: 750px) {
+    .navbar .nav-right .links a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .navbar .nav-right button {
+        display: flex;
+    }
+    .navbar .nav-right .links {
+        display: none
+    }
+
+    .navbar .rightside #hidden {
+        position: absolute;
+        right: 0px;
+        top: 80px;
+        height: 230px;
+        max-height: 230px;
+        width: 100%;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .rightside #hidden a {
+        margin: 10px;
+    }
 
 }
