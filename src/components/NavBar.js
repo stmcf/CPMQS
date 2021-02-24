@@ -1,6 +1,6 @@
 import '../styles/navbar.css';
 import { useState } from 'react'
-
+import { FiMenu } from 'react-icons/fi'
 
 function NavBar() {
 
@@ -22,7 +22,7 @@ function NavBar() {
                     <a href="/about">About</a>
                     <a href="/contact">Contact</a>
                 </div>
-                <button onClick={() => setShowLinks(!showLinks)}  >Open</button>
+                <button className="menu-bars" onClick={() => setShowLinks(!showLinks)}  ><FiMenu/></button>
             </div>
 
 
