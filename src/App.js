@@ -1,15 +1,27 @@
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import NavBar from './components/NavBar.js'
+import Home from './components/Home.js';
+import NavBar from './components/NavBar.js';
+import About from './components/About.js';
+import Contact from './components/Contact.js';
+import Services from './components/Services.js';
 
 function App() {
   return (
     <div className="App">
-      <header>
+
+      <Router>
+        <>
+          <NavBar />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/services" component={Services} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </>
+      </Router>
         
-        <NavBar/>
-        <h1>Welcome to CPM Quantity Surveying</h1>
-      </header>
     </div>
   );
 }
