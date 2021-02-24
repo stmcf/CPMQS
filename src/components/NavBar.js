@@ -11,7 +11,7 @@ function NavBar() {
         <div className="navbar">
             <div className="nav-left">
             <div className="cpm-logo">
-                <a>INSERT CPM IMAGE HERE</a>
+                <h1>CPM </h1>
             </div>
             </div>
             

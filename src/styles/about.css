@@ -4,15 +4,76 @@
     height: 100vh;
     margin: 0;
     display: flex;
+    color: #fff;
     
 }
 
-.about-blurb {
-    color: #fff;
+.about-mgmt h1 {
+    display: flex;
+    min-width: 100vw;
     justify-content: center;
     align-items: center;
-    flex: auto;
-    max-width: 75vw;
-
+    padding: 3vh;
+    font-weight: 700;
     
 }
+
+.about-ian {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5vh;
+    /* min-width: 420px; */
+    height: 30vh;
+    
+}
+
+.about-ian-blurb {
+    flex: 50%;
+    display: block;
+    border: 5px solid hotpink;
+    padding: 10px;
+    /* font-weight: 700; */
+    /* min-width: 420px; */
+    height: 30vh;
+}
+.about-steven {
+    display: flex;
+    /* min-width: 420px; */
+    height: 30vh;
+}
+
+.about-steven-blurb {
+    
+    flex: 50%;
+    display: block;
+    border: 5px solid hotpink;
+    padding: 10px;
+    /* font-weight: 700; */
+    /* min-width: 420px; */
+    height: 30vh;
+}
+
+.about-photo {
+    flex: 50%;
+    flex-direction: row;
+    border: 5px solid hotpink;
+    /* min-width: 420px; */
+    height: 30vh;
+
+}
+
+@media all and (max-width: 600px) {
+    .about-ian {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+    .about-steven {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+      }
+    .about-photo {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+      }
+  }
