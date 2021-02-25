@@ -1,51 +1,116 @@
-.grid-container {
+  .grid-container {
     display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
-    grid-template-rows: 1.7fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 1.5fr 1fr 0.7fr;
     gap: 0px 0px;
     grid-template-areas:
-      "who-why image"
+      "image image"
+      "who-why who-why"
       "news-container news-container"
       "values-container values-container";
+      max-height: 100vh;
   }
   .who-why {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 1.7fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "who-why-title"
-      "who-why-blurb";
-    grid-area: who-why;
-    
-  }
-  
-  .who-why-title { grid-area: who-why-title; 
-    }
-  
-  
-    .who-why-blurb { grid-area: who-why-blurb; }
-
-  .image { 
-      
-    grid-area: image;
-    background: linear-gradient( rgba(74,190,209, 0.7),rgba(52,73,112, 1)),
-    url('../images/james-sullivan-ESZRBtkQ_f8-unsplash.jpg') center/cover no-repeat;
-    margin: 0;
-    display: flex;
-    color: #fff; 
-    }
-  
-  .news-container {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
     gap: 0px 0px;
     grid-template-areas:
-      "news-li-feed news-contactus"
-      "news-li-feed news-contactus";
-    grid-area: news-container;
+      "who-why-head who-why-contacts"
+      "who-why-blurb who-why-contacts";
+    grid-area: who-why;
+    border-top: 15px solid #344970;
+    height: 30vh;
   }
-  .news-contactus { grid-area: news-contactus; }
-  .news-li-feed { grid-area: news-li-feed; }
-  .values-container { grid-area: values-container; }
+  .who-why-head { grid-area: who-why-head;
+padding-top: 8%; }
+
+.who-why-blurb { grid-area: who-why-blurb; }
+  
+.who-why-blurb > article > p {
+    padding: 2%;
+    margin-left: 2%;
+}
+
+  .who-why-contacts { grid-area: who-why-contacts; 
+    justify-content: center;
+    background: linear-gradient(rgba(202,205,205, 0.1), rgba(157,157,157, 0.5)),
+    url('../images/stirlingmap.png') center/cover no-repeat;
+    
+}
+
+address {text-align:center;}
+address > span {text-align:left; display:inline-block; padding:2%;}
+
+.who-why-contacts > h1 {
+    align-self: center;
+    padding-top: 8%;
+}
+
+.contacts-address {
+    justify-self: start;
+}
+
+
+
+
+.image { 
+    grid-area: image; 
+    background: url('../images/crane2.jpg') center/cover no-repeat;
+    width: 100%;
+    height: 30vh;
+}
+
+.news-container { 
+    grid-area: news-container; 
+    background-color: #4ABED1;
+    color: #fff;
+        
+}
+
+.news-container-flex {
+    padding-top: 2%;
+    text-align: left;
+    margin-left: 3%;
+    width: 100vw;
+}
+.news-container > article > h1  {
+    padding: 0.5%;
+
+}
+
+.news-container > article > ul {
+    padding: 0.5%;
+    font-weight: 600;
+    
+}
+
+button {
+    border: none;
+    background-color: #fff;
+}
+
+#news.btn {
+    border: solid 1px #344970;
+    color: #4abed1;
+}
+
+.values-container { grid-area: values-container;
+    background-color: #344970;
+    color: #fff;
+
+}
+
+.values-container > article  {
+    padding: 2%;
+    margin-left: 2%;
+}
+.values-container > article > h1  {
+    padding: 0.5%;
+
+}
+.values-container > article > p {
+    padding: 0.5%;
+    font-weight: 600;
+    
+}

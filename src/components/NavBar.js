@@ -11,7 +11,7 @@ function NavBar() {
         <div className="navbar">
             <div className="nav-left">
             <div className="cpm-logo">
-                <h1>CPM </h1>
+                <Link to="/">CPM</Link>
             </div>
             </div>
             
