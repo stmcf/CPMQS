@@ -7,7 +7,11 @@ function Home() {
         <div class="grid-container">
             <div class="who-why">
                 <div class="who-why-title">
-                    <article>
+                    <h3>Who we are</h3>
+                </div>
+            
+                <div class="who-why-blurb">
+                <article>
                         <p>
                             CPM Quantity Surveying is an SME (Sub)Contractor focused consultancy offering commercial management services on a bespoke and ad-hoc basis.  Having spent a combined 30 years plus experience in commercial roles within the construction industry our management team realised that smaller contractors were under represented on commercial and contractual matters and were compelled to provide a solution. 
                         </p>
@@ -17,10 +21,7 @@ function Home() {
                         </p>
                         
                     </article>
-                </div>
-            </div>
-                <div class="who-why-blurb">
-
+                    </div>
                 </div>
             
             
