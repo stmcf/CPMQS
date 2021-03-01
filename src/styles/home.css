@@ -20,12 +20,13 @@
       "who-why-blurb who-why-contacts";
     grid-area: who-why;
     border-top: 15px solid #344970;
-    height: 30vh;
+    height: 40vh;
   }
   .who-why-head { grid-area: who-why-head;
 padding-top: 8%; }
 
-.who-why-blurb { grid-area: who-why-blurb; }
+.who-why-blurb { grid-area: who-why-blurb;
+padding: 2%; }
   
 .who-why-blurb > article > p {
     padding: 2%;
@@ -73,6 +74,7 @@ address > span {text-align:left; display:inline-block; padding:2%;}
     text-align: left;
     margin-left: 3%;
     width: 100vw;
+    padding-bottom: 2%;
 }
 .news-container > article > h1  {
     padding: 0.5%;

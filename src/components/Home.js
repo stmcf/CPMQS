@@ -55,7 +55,7 @@ function Home() {
                     CPM wins first major EV contract with EVCollective
                 </ul>
             </article>
-            <button id="news.btn">Read More</button>
+            {/* <button id="news.btn">Read More</button> */}
         </div>
         <div class="values-container">
         <article className="news-container-flex">
@@ -68,7 +68,7 @@ function Home() {
                 </p>
                 
             </article>
-            <button id="values.btn">Read More</button>
+            {/* <button id="values.btn">Read More</button> */}
         </div>
         </div>
 
