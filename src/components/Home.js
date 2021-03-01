@@ -57,8 +57,8 @@ function Home() {
             </article>
             {/* <button id="news.btn">Read More</button> */}
         </div>
-        <div class="values-container">
-        <article className="news-container-flex">
+        {/* <div class="values-container"> */}
+        {/* <article className="news-container-flex">
                 <h1>CPM-QS's Values</h1>
                 <p>
                     When our clients appoint us we take the responsibility seriously and will always ensure that we can demonstrate tangible financial benefits as a direct result of our appointment
@@ -67,9 +67,9 @@ function Home() {
                     We promise our clients that we will add value, efficiences or generate cost savings.
                 </p>
                 
-            </article>
+            </article> */}
             {/* <button id="values.btn">Read More</button> */}
-        </div>
+        {/* </div> */}
         </div>
 
 

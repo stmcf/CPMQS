@@ -5,6 +5,7 @@ import NavBar from './components/NavBar.js';
 import About from './components/About.js';
 import Contact from './components/Contact.js';
 import Services from './components/Services.js';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,12 +14,13 @@ function App() {
       <Router>
         <>
           <NavBar />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/services" component={Services} />
-            <Route path="/contact" component={Contact} />
-          </Switch>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/services" component={Services} />
+              <Route path="/contact" component={Contact} />
+            </Switch>
+          <Footer/>
         </>
       </Router>
         

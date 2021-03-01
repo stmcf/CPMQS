@@ -1,13 +1,13 @@
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.8fr 1.5fr 1fr 0.7fr;
+    grid-template-rows: 0.8fr 2.2fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
       "image image"
       "who-why who-why"
-      "news-container news-container"
-      "values-container values-container";
+      "news-container news-container";
+      /* "values-container values-container"; */
       max-height: 100vh;
   }
   .who-why {
