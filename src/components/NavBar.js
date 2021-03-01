@@ -18,9 +18,10 @@ function NavBar() {
             <div className="nav-right">
                 <div className='links' id={showLinks ? "hidden" : "" }>
                     <Link to="/">Home</Link>
-                    <Link to="/about">About</Link>
+                    {/* <Link to="/about">About</Link> */}
                     <Link to='/services'>Our Services</Link>
-                    <Link to="/contact">Contact</Link>
+                    {/* <Link to="/contact">Contact</Link> */}
+                    <a className='header-email-us' href="mailto:info@cpm-qs.co.uk">Contact</a>
                 </div>
                 <button className="menu-bars" onClick={() => setShowLinks(!showLinks)}  ><FiMenu/></button>
             </div>

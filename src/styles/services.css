@@ -1,0 +1,70 @@
+.services {
+    display: flex;
+    flex-flow: wrap;
+    width: 100vw;
+    min-height: 75vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(202,205,205, 0.9), rgba(157,157,157, 0.9)),
+    url('../images/crane2.jpg') center/cover no-repeat;;
+}
+
+.services-blurb {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.blurb {
+    margin: 2%;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+/* .service-box {
+    border: 2px solid #344970;
+    width: 500px;
+    height: 35vh;
+    margin: 25px;
+} */
+
+.service-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 1.5fr;
+    gap: 40px 20px;
+    grid-template-areas:
+      "service-box1 services-box2"
+      "service-box3 service-box4";
+      /* "values-container values-container"; */
+      max-height: 100vh;
+  }
+
+section > ul > li {
+    text-decoration: none;
+    list-style: none;
+}
+
+::marker {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+    padding: 2%;
+}
+
+h2 {
+    padding: 3%;
+}
+
+.service-box1, .service-box2, .service-box3, .service-box4 {
+    border: 2px solid #344976;
+    /* #4ABED1; */
+    /* width: 500px;
+    height: 35vh;
+    margin: 25px; */}
+
+.service-box3, .service-box4 {
+        margin-bottom: 40px;
+}
