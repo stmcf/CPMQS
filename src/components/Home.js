@@ -13,13 +13,13 @@ function Home() {
             </header>
             </div>
             <div class="who-why-blurb">
-            <article>
-                <p>
-                    CPM Quantity Surveying is an SME (Sub)Contractor focused consultancy offering commercial management services on a bespoke and ad-hoc basis.  Having spent a combined 30 years plus experience in commercial roles within the construction industry our management team realised that smaller contractors were under represented on commercial and contractual matters and were compelled to provide a solution. 
-                </p>
-                <p>  
-                    We have decided to do things differently and, through a schedule of rates, agreed in advance, we offer the right level of consultant for each task essentially providing a full, on-demand commercial department from Junior QS’s and Commercial Assistants through to Commercial Managers.  This model ensure your business benefits from the knowledge, experience and supervision of our senior consultants without having to pay for them to carry out the day to day commercial tasks.     
-                </p>                        
+                <article>
+                    <p>
+                        CPM Quantity Surveying is an SME Contractor focused consultancy offering commercial management services on a bespoke and ad-hoc basis.  Having spent a combined 30 years plus experience in commercial roles within the construction industry our management team realised that smaller contractors were under represented on commercial and contractual matters and were compelled to provide a solution. 
+                    </p>
+                    <p>  
+                        We have decided to do things differently and, through a schedule of rates, agreed in advance, we offer the right level of consultant for each task essentially providing a full, on-demand commercial department from Junior QS’s and Commercial Assistants through to Commercial Managers.  This model ensure your business benefits from the knowledge, experience and supervision of our senior consultants without having to pay for them to carry out the day to day commercial tasks.     
+                    </p>                        
                 </article>
             </div>
             <div class="who-why-contacts">
@@ -27,7 +27,7 @@ function Home() {
                 <h1 className="contacts-title">Where we're based...</h1>
                 <address>
                     <span>
-                        Office 5, Gladstone Terrace<br />
+                        Office 5<br />
                         11 Gladstone Place<br />
                         Stirling<br />
                         FK8 2NN
@@ -52,7 +52,7 @@ function Home() {
                     CPM moves to new offices in Gladstone Place, Stirling...
                 </ul>
                 <ul>
-                    CPM wins first major EV contract with EVCollective
+                    CPM tendering multiple EV Contracts...
                 </ul>
             </article>
             {/* <button id="news.btn">Read More</button> */}
