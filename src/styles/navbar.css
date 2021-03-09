@@ -4,7 +4,7 @@
     height: 15vh;
     display: flex;
     text-decoration: none;
-    border-bottom: 15px solid #344976;
+    /* border-bottom: 10px solid #344976; */
     
     }
 
@@ -64,7 +64,7 @@
 .navbar .nav-right .links a {
     text-decoration: none;
     color: rgb(52,73,112);
-    font-size: 20px;
+    font-size: 16px;
     margin-right: 3vw;
     text-transform: uppercase;
     font-weight: 700;
@@ -79,8 +79,8 @@ link:hover {
 }
 
 .cpm-logo {
-    max-height: 10vh;
-    max-width: 12vw;
+    max-height: 13vh;
+    max-width: 15vw;
     
 }
 

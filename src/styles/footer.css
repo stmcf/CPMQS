@@ -3,7 +3,7 @@ footer {
     height: 100px;
     position: absolute;
     background-color: #fff;
-    border-top: 15px solid #344976;
+    /* border-top: 15px solid #344976; */
 }
 
 .company-deets {
