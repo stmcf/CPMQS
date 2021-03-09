@@ -59,7 +59,7 @@ article {
 
 .image { 
     grid-area: image; 
-    background: linear-gradient(rgba(52,73,112, 0.5),rgba(52,73,112, 0.9)), url('../assets/crane2.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(74,190,209, 0.3),rgba(52,73,112, 0.9)), url('../assets/crane2.jpg') center/cover no-repeat;
     width: 100%;
     height: 30vh;
 }
