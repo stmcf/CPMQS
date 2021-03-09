@@ -1,7 +1,7 @@
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.8fr 2.2fr 1fr;
+    grid-template-rows: 0.8fr 1.3fr 0.9fr;
     gap: 0px 0px;
     grid-template-areas:
       "image image"
@@ -13,7 +13,7 @@
   .who-why {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 1.5fr;
+    grid-template-rows: 0.3fr 1.7fr;
     gap: 0px 0px;
     grid-template-areas:
       "who-why-head who-why-contacts"
@@ -26,7 +26,7 @@
 padding-top: 8%; }
 
 .who-why-blurb { grid-area: who-why-blurb;
-padding: 2%; }
+padding: 1%; }
   
 .who-why-blurb > article > p {
     padding: 2%;
@@ -41,7 +41,7 @@ padding: 2%; }
 }
 
 address {text-align:center;}
-address > span {text-align:left; display:inline-block; padding:2%;}
+address > span {text-align:left; display:inline-block; padding:2%; font-size: 20px;}
 
 .who-why-contacts > h1 {
     align-self: center;
