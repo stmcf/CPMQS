@@ -5,7 +5,7 @@
     min-height: 75vh;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(202,205,205, 0.9), rgba(157,157,157, 0.9)),
+    background: linear-gradient(rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)),
     url('../assets/crane2.jpg') center/cover no-repeat;;
 }
 
