@@ -36,7 +36,7 @@ padding: 2%; }
   .who-why-contacts { grid-area: who-why-contacts; 
     justify-content: center;
     background: linear-gradient(rgba(202,205,205, 0.1), rgba(157,157,157, 0.5)),
-    url('../images/stirlingmap.png') center/cover no-repeat;
+    url('../assets/stirlingmap.png') center/cover no-repeat;
     
 }
 
@@ -57,7 +57,7 @@ address > span {text-align:left; display:inline-block; padding:2%;}
 
 .image { 
     grid-area: image; 
-    background: url('../images/crane2.jpg') center/cover no-repeat;
+    background: url('../assets/crane2.jpg') center/cover no-repeat;
     width: 100%;
     height: 30vh;
 }

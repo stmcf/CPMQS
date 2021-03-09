@@ -10,9 +10,9 @@ function NavBar() {
     return (
         <div className="navbar">
             <div className="nav-left">
-            <div className="cpm-logo">
-                <Link to="/">CPM</Link>
-            </div>
+                <Link to="/">
+                    <img className="cpm-logo" src='./cpm.jpg' alt="CPM QS Logo" />
+                </Link>
             </div>
             
             <div className="nav-right">

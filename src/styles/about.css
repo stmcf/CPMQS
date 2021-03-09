@@ -1,6 +1,6 @@
 .about {
     background: linear-gradient(rgba(52,73,112, 1), rgba(74,190,209, 0.9)),
-    url('../images/james-sullivan-ESZRBtkQ_f8-unsplash.jpg') center/cover no-repeat;
+    url('../assets/james-sullivan-ESZRBtkQ_f8-unsplash.jpg') center/cover no-repeat;
     height: 100vh;
     margin: 0;
     display: flex;
