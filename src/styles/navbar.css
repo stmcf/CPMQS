@@ -79,8 +79,8 @@ link:hover {
 }
 
 .cpm-logo {
-    height: 8vh;
-    width: 10vw;
+    max-height: 8vh;
+    max-width: 10vw;
     
 }
 
