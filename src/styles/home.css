@@ -20,7 +20,7 @@
       "who-why-blurb who-why-contacts";
     grid-area: who-why;
     border-top: 15px solid #344970;
-    height: 40vh;
+    /* height: 40vh; */
   }
   .who-why-head { grid-area: who-why-head;
 padding-top: 8%; }
